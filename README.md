@@ -7,10 +7,14 @@ PureScript の初期化プロジェクト
 ```shell-session
 $ npm install
 ...
-$ npm run build-s
+$ npm run build
 ...
 [info] Build succeeded.
-$ npm run run-s
+$
+```
+
+ホットリロード
+```
+$ npm start
 ...
-🍝
 ```
