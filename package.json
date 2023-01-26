@@ -4,14 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run-s": "spago run",
-    "build-s": "spago build"
+    "start:script": "npx spago bundle-app -t ./public/index.js -w",
+    "start:live-server": "npx live-server public",
+    "start": "run-p start:*",
+    "build": "spago build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "esbuild": "^0.17.4",
+    "live-server": "^1.2.2",
+    "npm-run-all": "^4.1.5",
     "purescript": "^0.15.7",
     "purs-tidy": "^0.9.2",
     "spago": "^0.20.9"
