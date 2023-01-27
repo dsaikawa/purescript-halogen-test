@@ -1,6 +1,8 @@
 # purescript-initial
 
-PureScript の初期化プロジェクト
+PureScript のフレームワーク Halogen を使ったカウンター
+
+https://dsaikawa.github.io/purescript-halogen-test/public/
 
 # Usage
 
